@@ -118,3 +118,32 @@ h1, h2, h3, h4, h5, h6 {
   display:table;
   clear:both;
 }
+.education-experience__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.education-experience__list img {
+  float: left;
+  width: 180px;
+  margin-right: 40px;
+}
+.education-experience__description {
+  overflow: hidden;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.photos__list li {
+  list-style: none;
+  width: 25%;
+  padding: 10px;
+  float: left;
+  text-align: center;
+}
+.photos__list img {
+  width: 100%;
+}
