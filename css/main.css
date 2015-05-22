@@ -4,6 +4,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body {
   font-family: 'Open Sans','helvetica',arial,sans-serif;
   font-weight: 300;
@@ -13,14 +14,17 @@ body {
   background-size: cover;
   background-position: center;
 }
+
 h1, h2, h3, h4, h5, h6 {
   color: #333;
   font-weight: 300;
 }
+
 .container {
   width: 960px;
   margin: 0 auto;
 }
+
 .main-header {
   margin-top: 100px;
   padding: 1px;
@@ -41,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   text-shadow: 0 1px rgba(0,0,0,0.3);
 }
+
 .main-nav {
   padding: 1px;
   background-color: #333;
@@ -62,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav ul li a:hover {
   text-decoration: underline;
 }
+
 .info-section {
   padding: 1px;
   background-color: #fff;
@@ -124,12 +130,12 @@ h1, h2, h3, h4, h5, h6 {
   display:table;
   clear:both;
 }
+
 .education-experience__list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .education-experience__list img {
   float: left;
   width: 180px;
@@ -139,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 0 50px 50px;
   text-align: left;
 }
+
 .photos__list li {
   list-style: none;
   width: 25%;
@@ -147,5 +154,41 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 .photos__list img {
+  width: 100%;
+}
+.get-in-touch__list li {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
+form {
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+}
+label {
+  position: absolute;
+  right: 100%;
+  margin-right: 20px;
+}
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
   width: 100%;
 }
